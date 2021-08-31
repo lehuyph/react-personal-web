@@ -1,5 +1,5 @@
 * {
-  font-size: calc(8px + 2vmin);
+  font-size: calc(6px + 2vmin);
 }
 li {
   list-style: none;
@@ -37,7 +37,7 @@ a {
   color: white;
 }
 .SmText {
-  font-size: calc(6px + 2vmin);
+  font-size: calc(4px + 2vmin);
   color: #717375;
 }
 .WhiteText {
@@ -121,9 +121,12 @@ a {
   border-bottom-right-radius: 10px;
 }
 .BtnCV {
-  width: 10rem;
+  width: 8rem;
   background: #722ed1;
   background: #389e0d;
+}
+.Home .Section1 {
+  /* background: rgba(255, 255, 255, 0.05); */
 }
 .Home .Section2 {
   /* background: rgba(255, 255, 255, 0.05); */

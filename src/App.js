@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App p-5">
+    <div className="App px-5 py-4">
       <div className="GlassSection">
         <div className="Bubble Bubble1"></div>
         {/* <div className="Bubble Bubble2"></div> */}
