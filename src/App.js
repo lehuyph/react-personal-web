@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+import Infos from "./components/Infos";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App p-5">
+      <div className="GlassSection">
+        <div className="Bubble Bubble1"></div>
+        {/* <div className="Bubble Bubble2"></div> */}
+        <div className="Bubble Bubble3"></div>
+        <div className="Bubble Bubble4"></div>
+        <div className="Glass">
+          <Header></Header>
+          <Home></Home>
+        </div>
+      </div>
+      <Projects></Projects>
+      <Infos></Infos>
+      <Footer></Footer>
     </div>
   );
 }
